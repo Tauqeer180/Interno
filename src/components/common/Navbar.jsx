@@ -13,7 +13,7 @@ export default function Navbar() {
     { name: "Contact Us", href: "#", current: false },
   ];
   return (
-    <div>
+    <div className="container mx-auto">
       <nav>
         <div className="mx-auto px-2">
           <div className="relative flex items-center justify-between">
@@ -70,8 +70,8 @@ export default function Navbar() {
                     <a
                       href="/"
                       className={
-                        (item.current ? "text-yellow-700" : "text-black",
-                        "   hover:text-yellow-700 px-3 py-2 rounded-md text-xl font-sans")
+                        (item.current ? "text-theme-gold" : "text-black",
+                        "   hover:text-theme-gold px-3 py-2 rounded-md text-xl font-sans")
                       }
                       aria-current={item.current ? "page" : undefined}
                     >

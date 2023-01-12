@@ -1,13 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/pages/index.js",
-    "./src/components/common/Navbar.jsx",
-    "./src/components/home/Banner.jsx",
-    "./src/components/home/Card.jsx",
+    "./src/pages/**/*.{js,jsx,ts,tsx}",
+    "./src/components/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
     borderRadius: {
       none: "0",
       sm: "0.125rem",
@@ -16,10 +13,21 @@ module.exports = {
       lg: "0.5rem",
       "2lg": "1rem",
       "3lg": "1.5rem",
+      "4xl": "4rem",
+      "5xl": "5rem",
+      "6xl": "6rem",
       "8xl": "8rem",
       "10xl": "10rem",
       full: "9999px",
       "19xl": "19rem",
+    },
+    extend: {
+      colors: {
+        "theme-gold": "#cda274",
+        "theme-gray": "#f4f0ec",
+        "theme-text": "#4d5053",
+        "theme-heading": "#292f36",
+      },
     },
   },
   plugins: [],

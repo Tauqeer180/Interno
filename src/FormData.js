@@ -72,3 +72,37 @@ export const ProjectsData = [
     Link: "",
   },
 ];
+export const BlogsData = [
+  {
+    Image:
+      "https://uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dcfbe7008298f5887664_project-image-1.jpg",
+    Title: "Residential Interior Designer In New York, USA",
+    Date: "November 23, 2021",
+    Type: "Kitchen Design",
+    Link: "",
+  },
+  {
+    Image:
+      "https://uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dd05b4f9a181178c70b9_project-image-2.jpg",
+    Title: "How To Choose The Best Wall Art & Decor House?",
+    Date: "November 23, 2021",
+    Type: "Living Room",
+    Link: "",
+  },
+  {
+    Image:
+      "https://uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dd10e8f59f8f8287319f_project-image-3.jpg",
+    Title: "Tips To Increase The Interior Value Of Your House",
+    Date: "November 23, 2021",
+    Type: "Minimalist Interior",
+    Link: "",
+  },
+  {
+    Image:
+      "https://uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dd203305d3906782aa29_project-image-4.jpg",
+    Title: "Best Solution For Any Office & Business Interior",
+    Date: "November 23, 2021",
+    Type: "Kitchen Design",
+    Link: "",
+  },
+];
